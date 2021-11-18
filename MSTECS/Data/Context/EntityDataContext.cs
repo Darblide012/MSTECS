@@ -23,7 +23,7 @@ namespace MSTECS.Data.Context
         }
 
         #region Entities
-        public DbSet<Hability> Employees { set; get; }
+        public DbSet<Hability> habilities { set; get; }
 
         #endregion
     
