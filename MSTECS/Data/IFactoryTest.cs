@@ -18,7 +18,7 @@ namespace MSTECS.Data
         /// </summary>
         /// <param name="context"></param>
         /// <returns></returns>
-        IFactoryTest FactoryTest(IEntityDataContext context);
+        //IFactoryTest FactoryTest(IEntityDataContext context);
         /// <summary>
         /// Method Save changes
         /// </summary>
@@ -63,15 +63,15 @@ namespace MSTECS.Data
             throw new NotImplementedException();
         }
 
-        public IEntityDataContext EntityDataContext(IEntityDataContext _context)
-        {
-            throw new NotImplementedException();
-        }
+        //public IEntityDataContext EntityDataContext(IEntityDataContext _context)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
-        public IFactoryTest FactoryTest(IEntityDataContext context)
-        {
-            throw new NotImplementedException();
-        }
+        //public IFactoryTest FactoryTest(IEntityDataContext context)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         /// <summary>
         /// Connection DATABASE
